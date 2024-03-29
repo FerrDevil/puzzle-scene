@@ -1,0 +1,83 @@
+.header{
+    width: 100%;
+    display: grid;
+    height: var(--header-height);
+    padding: 24px 0;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo-link{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    & > .logo-name{
+        font-size: 24px;
+        color: #ccc;
+    }
+}
+
+
+.logo-wrapper{
+    width: 40px;
+    height: 40px;
+    aspect-ratio: 1;
+    & > .logo{
+       display: block;
+       width: 100%;
+       height: 100%;
+       object-fit: contain; 
+    }
+    
+}
+
+.navbar-link-list{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    & > li {
+        list-style: none;
+        display: block;
+    }
+}
+
+.favourites-link{
+    width: 40px;
+    height: 40px;
+    display: block;
+
+    & > svg{
+        fill: #ccc;
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain; 
+    }
+}
+
+.add-link{
+    width: 40px;
+    height: 40px;
+    display: block;
+    background-color: #474747;
+    border-radius: 100vmax;
+    
+    
+    & > svg{
+        fill: #ccc;
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain; 
+        transition: rotate 0.3s ease-in-out;
+    }
+    &:hover > svg{
+        rotate: z 180deg;
+    }
+}
+

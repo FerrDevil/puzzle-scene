@@ -1,0 +1,14 @@
+.difficulty-slider-wrapper{
+    display: flex;
+    align-items: center;
+    font-size: clamp(12px, 1vw, 16px);
+    gap: 20px;
+    background-color: #373737;
+    height: 40px;
+    padding-inline: 10px;
+    border-radius: 5px;
+}
+.difficulty-slider{
+    accent-color: #ff6472;
+    cursor: pointer;
+}

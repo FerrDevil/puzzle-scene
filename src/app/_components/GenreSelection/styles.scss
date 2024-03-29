@@ -1,0 +1,29 @@
+.genre-select-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #373737;
+    height: 40px;
+    padding-inline: 10px 0px;
+    border-radius: 5px;
+}
+
+.genre-select{
+    height: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #373737;
+
+    &:focus{
+        outline: 1px solid transparent;
+        background-color: #474747;
+    }
+
+    & > option{
+        padding: 10px 20px; 
+    }
+}
+
+
+

@@ -1,0 +1,26 @@
+.main-page-wrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+.main-page-title{
+    font-size: 36px;
+    margin-left: 20px;
+}
+
+.filter-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filter-form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+
+
+

@@ -1,0 +1,58 @@
+.filtered-puzzles-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 20px;
+}
+
+.filtered-puzzle{
+    display: grid;
+    max-width: 100%;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.filtered-puzzle__image-wrapper{
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16/9;
+}
+
+.filtered-puzzle__image{
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
+    height: 100%;
+}
+
+.filtered-puzzle__title{
+    color: #ccc;
+    font-size: 20px;
+}
+
+.filtered-puzzle__genre{
+    font-size: clamp(14px, 1vw, 16px);
+    top: 5px;
+    left: 5px;
+    position: absolute;
+    color: #ddd;
+    background-color: #4c4c4c;
+    padding: 5px 10px;
+    border-radius: 2.5px;
+}
+
+.filtered-puzzle__difficulty{
+    font-size: clamp(14px, 1vw, 16px);
+    top: 5px;
+    right: 5px;
+    position: absolute;
+    color: #ddd;
+    background-color: #4c4c4c;
+    padding: 5px 10px;
+    border-radius: 2.5px;
+}
+
+
+.not-found-message{
+    margin-left: 20px;
+    font-size: 20px;
+}

@@ -1,0 +1,55 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark;
+  
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --header-height: 88px;
+  --main-vertical-padding: 24px;
+}
+
+*, *::after, *::before{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+html{
+  background-color: #242424;
+}
+html, body{
+  overflow: auto;
+  
+}
+
+
+
+
+body {
+  
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  
+  min-height: 100vh; 
+}
+#root {
+  height: 1px;
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 88px 1fr;
+  padding: 0 clamp(10px, 2vmax, 48px);
+}
+
+
+a {
+  color:#000;
+  text-decoration: none;
+}
